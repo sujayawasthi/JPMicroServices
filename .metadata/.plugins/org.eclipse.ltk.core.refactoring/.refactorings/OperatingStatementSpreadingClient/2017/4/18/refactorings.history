@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.example.dto&apos; to &apos;OperatingStatementSpreadingService/src/main/java/com.example&apos;&#x0A;- Original project: &apos;OperatingStatementSpreadingClient&apos;&#x0A;- Destination element: &apos;OperatingStatementSpreadingService/src/main/java/com.example&apos;&#x0A;- Original element: &apos;OperatingStatementSpreadingClient/src/main/java/com.example.dto&apos;" description="Copy package" destination="=OperatingStatementSpreadingService/src\/main\/java&lt;com.example" element1="/src\/main\/java&lt;com.example.dto" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1493559430367" version="1.0"/>
+</session>

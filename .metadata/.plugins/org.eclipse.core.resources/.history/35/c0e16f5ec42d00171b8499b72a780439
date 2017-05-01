@@ -1,0 +1,21 @@
+package com.example.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+class Account {
+
+	@Id
+	@GeneratedValue
+	private Long id;
+
+	private String username, password;
+	private boolean active = true;
+
+	public Account(String u, String p) {
+		this.username = u;
+		this.password = p;
+	}
+}

@@ -1,0 +1,4 @@
+#spring.cloud.config.label=e
+spring.application.name=e
+spring.cloud.config.uri = http://192.168.175.128:8081
+

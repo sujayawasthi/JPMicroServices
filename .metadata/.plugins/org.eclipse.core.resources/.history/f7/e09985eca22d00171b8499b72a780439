@@ -1,0 +1,7 @@
+package com.example.messaging;
+
+public interface OperatingStatementChannels {
+
+	@Input
+	SubscribableChannel osInputChannel;
+}

@@ -1,0 +1,4 @@
+management.security.enabled=false
+
+spring.cloud.config.server.git.uri=${HOME}/Desktop/springcloudconfig
+server.port=8081

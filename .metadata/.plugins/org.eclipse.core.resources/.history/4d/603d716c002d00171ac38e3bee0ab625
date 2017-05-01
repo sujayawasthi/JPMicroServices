@@ -1,0 +1,15 @@
+package com.example.dataloader;
+
+import org.springframework.boot.CommandLineRunner;
+
+public class DataLoad implements CommandLineRunner {
+
+	@Override
+	public void run(String... arg0) throws Exception {
+		
+		OperatinStatement os = new OperatingStatement();
+		
+		
+	}
+
+}

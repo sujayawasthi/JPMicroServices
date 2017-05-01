@@ -1,0 +1,20 @@
+package com.example.dataloader;
+
+import org.springframework.boot.CommandLineRunner;
+
+import com.example.model.OperatingStatement;
+
+public class DataLoad implements CommandLineRunner {
+
+	@Override
+	public void run(String... arg0) throws Exception {
+
+		OperatingStatement os1 = new OperatingStatement("2014", "Annual");
+		OperatingStatement os2 = new OperatingStatement("2015", "Quarterly");
+		OperatingStatement os3 = new OperatingStatement("2016", "Annual");
+		OperatingStatement os4 = new OperatingStatement("2017", "Annual");
+		OperatingStatement os5 = new OperatingStatement("2018", "Semi-Annual");
+
+	}
+
+}

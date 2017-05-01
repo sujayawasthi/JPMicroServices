@@ -1,0 +1,10 @@
+package com.example.dto;
+
+public class OperatingStatement implements serializable {
+
+	String type;
+
+	String Year;
+
+	Long id;
+}

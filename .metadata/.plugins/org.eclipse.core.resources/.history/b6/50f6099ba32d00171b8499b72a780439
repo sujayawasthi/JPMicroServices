@@ -1,0 +1,14 @@
+package com.example.messaging;
+
+import org.springframework.integration.annotation.MessageEndpoint;
+import org.springframework.messaging.Message;
+
+@MessageEndpoint
+public class IncomingOperatingStatementProcessor {
+
+	@ServiceActivtor
+	public void onOperatingStatementArrival(Message<String> type) {
+
+	}
+
+}

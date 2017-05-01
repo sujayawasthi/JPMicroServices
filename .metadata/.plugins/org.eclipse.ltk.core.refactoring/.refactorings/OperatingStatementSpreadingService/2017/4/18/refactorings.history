@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.example.message&apos; to &apos;com.example.messaging&apos;&#x0A;- Original project: &apos;OperatingStatementSpreadingService&apos;&#x0A;- Original element: &apos;OperatingStatementSpreadingService/src/main/java/com.example.message&apos;&#x0A;- Renamed element: &apos;OperatingStatementSpreadingService/src/main/java/com.example.messaging&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.example.message&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.example.message" name="com.example.messaging" qualified="false" references="true" stamp="1493556284799" textual="false" version="1.0"/>
+</session>

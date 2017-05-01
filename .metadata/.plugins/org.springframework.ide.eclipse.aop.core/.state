@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="OperatingStatementSpreadingClient"/>
+<aop-project name="Auth-Service"/>
+<aop-project name="EurekaServer"/>
+<aop-project name="ConfigServer"/>
+<aop-project name="OperatingStatementSpreadingService"/>
+<aop-project name="Zipkin-Service"/>
+<aop-project name="Hystrix-DashBoard"/>
+</aop-reference-model>

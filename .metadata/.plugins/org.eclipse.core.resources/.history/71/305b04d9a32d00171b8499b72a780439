@@ -1,0 +1,25 @@
+package com.example.messaging;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.integration.annotation.MessageEndpoint;
+import org.springframework.integration.annotation.ServiceActivator;
+import org.springframework.messaging.Message;
+
+import com.example.model.OperatingStatement;
+import com.example.repositories.OperatingStatementRepository;
+
+@MessageEndpoint
+public class IncomingOperatingStatementProcessor {
+
+	@Autowired
+	OperatingStatementRepository repo;
+
+	@ServiceActivator(inputChannel = "osInputChannel")
+	public void onOperatingStatementArrival(Message<String> type) {
+
+		OperatingStatement os = new OperatingStatement();
+		os.setType(type);
+		repo.save(os);
+	}
+
+}

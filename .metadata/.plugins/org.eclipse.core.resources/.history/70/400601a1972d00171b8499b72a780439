@@ -1,0 +1,12 @@
+package com.example.dto;
+
+import java.io.Serializable;
+
+public class OperatingStatement implements Serializable {
+
+	String type;
+
+	String Year;
+
+	Long id;
+}

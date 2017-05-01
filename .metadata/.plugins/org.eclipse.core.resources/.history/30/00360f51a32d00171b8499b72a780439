@@ -1,0 +1,6 @@
+package com.example.messaging;
+
+@MessageEndPoint
+public class IncomingOperatingStatementProcessor {
+
+}

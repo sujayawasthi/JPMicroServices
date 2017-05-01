@@ -1,0 +1,10 @@
+package com.example.model;
+
+@Entity
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class OperatingStatement {
+
+}

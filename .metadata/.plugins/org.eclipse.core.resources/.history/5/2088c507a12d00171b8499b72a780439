@@ -1,0 +1,9 @@
+package com.example.messaging;
+
+import org.springframework.cloud.stream.annotation.Output;
+
+public interface OperatingStatementChannel {
+
+	@Output
+	MeesageChannel operatingStatementPusher();
+}

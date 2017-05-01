@@ -1,0 +1,8 @@
+package com.example.messaging;
+
+import org.springframework.integration.annotation.MessageEndpoint;
+
+@MessageEndpoint
+public class IncomingOperatingStatementProcessor {
+
+}

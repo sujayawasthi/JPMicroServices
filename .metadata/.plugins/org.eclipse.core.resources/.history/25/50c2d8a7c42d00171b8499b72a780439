@@ -1,0 +1,6 @@
+package com.example.repo;
+
+interface AccountRepository extends JpaRepository<Account, Long> {
+
+	Optional<Account> findByUsername(String u);
+}
